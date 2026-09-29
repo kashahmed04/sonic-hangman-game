@@ -1,4 +1,4 @@
-import './reset.css';
+
 import { Howl } from 'howler';
 
 const letterContainer = document.getElementById('letter-container');
@@ -27,13 +27,13 @@ let chosenWordCopy = [];
 let displayItem = '' as string;
 
 const backgroundMusic = new Howl({
-  src: ['./audio/background-music.mp3'],
+  src: ['../audio/background-music.mp3'],
   loop: true,
   volume: 0.5,
 });
 
 const pressSound = new Howl({
-  src: ['./audio/click.mp3'],
+  src: ['../audio/click.mp3'],
   loop: false,
   volume: 0.5,
 });
@@ -370,7 +370,7 @@ const drawMan = (count: number) => {
     case 5:
       leftLeg();
       break;
-    case 5:
+    case 6:
       rightLeg();
       break;
     default:
