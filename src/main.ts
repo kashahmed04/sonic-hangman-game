@@ -27,13 +27,13 @@ let chosenWordCopy = [];
 let displayItem = '' as string;
 
 const backgroundMusic = new Howl({
-  src: ['../audio/background-music.mp3'],
+  src: ['/sonic-hangman-game/audio/background-music.mp3'],
   loop: true,
   volume: 0.5,
 });
 
 const pressSound = new Howl({
-  src: ['../audio/click.mp3'],
+  src: ['/sonic-hangman-game/audio/click.mp3'],
   loop: false,
   volume: 0.5,
 });
