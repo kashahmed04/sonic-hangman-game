@@ -23,7 +23,15 @@ A Sonic-themed Hangman game where players choose a category and guess their way 
 
 ## Project Structure
 
-- `audio/` — Background music and sound effects
-- `images/` — Background image used throughout the game
-- `src/` — TypeScript, styling, and project credits
-- `index.html` — Main page structure
+- `public/audio/` - Background music and sound effects
+- `public/images/` - Background image and favicon
+- `src/` - TypeScript, styling, and project credits
+- `index.html` - Main page structure
+
+## Live Demo
+
+[Play Sonic Hangman](https://kashahmed04.github.io/sonic-hangman-game/)
+
+## Credits
+
+Credits for the images and audio used in this project can be found in the `src/credits` file.
